@@ -1,0 +1,21 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: rgba(255, 129, 197, 0.7);
+    height: 100vh;
+
+}
+
+/* Скільки буде 5+2 */
+#question {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.answer {
+    margin-bottom: 10px;
+}
+
+#feedback {
+    font-size: 18px;
+    margin-top: 20px;
+}

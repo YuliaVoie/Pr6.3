@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <title>pract</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<!-- Скільки буде 5+2 -->
+<h1>Інтерактивний тест</h1>
+<div class="switch-container">
+    <p id="question">Скільки буде 5 + 2?</p>
+    <form id="test-form">
+        <div class="answer">
+            <input type="radio" id="answer1" name="answer" value="6">
+            <label for="answer1">6</label>
+        </div>
+        <div class="answer">
+            <input type="radio" id="answer2" name="answer" value="7">
+            <label for="answer2">7</label>
+        </div>
+        <div class="answer">
+            <input type="radio" id="answer3" name="answer" value="8">
+            <label for="answer3">8</label>
+        </div>
+        <button type="button" onclick="checkAnswer()">Перевірити відповідь</button>
+    </form>
+    <p id="feedback"></p>
+</div>
+</body>
+</html>
